@@ -67,10 +67,6 @@
                             <div class="product-img-item">
                                 <img src="http://localhost:8080/store/webroot/img/products/1111<?= $product->id; ?>.gif">
                             </div>
-                            <div class="product-img-item">
-                                <img src="http://localhost:8080/store/webroot/img/products/11111<?= $product->id; ?>.gif">
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -127,12 +123,12 @@
                         <p>
                             <?= $product->description; ?>
                         </p>
-                        <img src="http://localhost:8080/store/webroot/img/products/sswhite<?= $product->id; ?>.jpg">
+                        <img src="http://localhost:8080/store/webroot/img/products/40.jpg">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia, quae fuga in exercitationem aliquam labore ex doloribus repellendus beatae facilis ipsam. Veritatis vero obcaecati iste atque aspernatur ducimus.
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quam praesentium id sit amet magnam ad, dolorum, cumque iste optio itaque expedita eius similique, ab adipisci dicta. Quod, quibusdam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, in corrupti ipsam sint error possimus commodi incidunt suscipit sit voluptatum quibusdam enim eligendi animi deserunt recusandae earum natus voluptas blanditiis?
                         </p>
-                        <img src="http://localhost:8080/store/webroot/img/products/sssswhite<?= $product->id; ?>.jpg">
+                        <img src="http://localhost:8080/store/webroot/img/products/1<?= $product->id; ?>.jpg">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam quam fugit veniam ipsum recusandae incidunt, ex ratione, magnam labore ad tenetur officia! In, totam. Molestias sapiente deserunt animi porro?
                         </p>
