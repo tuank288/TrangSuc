@@ -14,7 +14,7 @@
 
   <div class="icons">
       <div class="fas fa-user" id="search-btn"></div>																
-			<a href="http://localhost:8080/shop/products/cart" class="cart-label header-icon">
+			<a href="http://localhost:8080/store/products/cart" class="cart-label header-icon">
                 <div class="fas fa-shopping-cart" id="cart-btn"></div>
 					<?php if($this->request->getSession()->read('Shop')) : ?>
 						<div class="cart-info">

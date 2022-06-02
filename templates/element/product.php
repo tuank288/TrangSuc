@@ -1,7 +1,7 @@
             <?php foreach ($products as $product): ?>
             
             <div class="prd">
-                <?= $this->Html->image('products/white1.jpg') ?>
+                <img src="http://localhost:8080/store/webroot/img/products/<?= $product->id; ?>.jpg">
                 <div class="desc">
                     <span><?= $product->has('category') ? h($product->category->name) : '' ?></span>
                     <h4><?= $product->name ?></h4>
@@ -14,6 +14,6 @@
                     </div>
                     <h4><?= $product->price ?></h4>
                 </div>
-                <a href="/shop/shop/<?= $product->id ?>"><i class="fas fa-shopping-cart cart"></i></a>
+                <a href="/store/shop/<?= $product->id ?>"><i class="fas fa-shopping-cart cart"></i></a>
             </div>
             <?php endforeach ?>

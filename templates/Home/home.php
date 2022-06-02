@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shop</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/home.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/users.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/users.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/app.css" />
     
     
 </head>
@@ -63,6 +63,6 @@
 
     <?= $this->element('footer') ?>
 
-    <script src="http://localhost:8080/SHOP/webroot/js/home.js"></script>
+    <script src="http://localhost:8080/store/webroot/js/home.js"></script>
 </body>
 </html>

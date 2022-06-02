@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
     <!-- <link rel="stylesheet" type="text/css" href="webroot/css/home.css" /> -->
     
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/home.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/shop.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/users.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/SHOP/webroot/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/shop.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/users.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/store/webroot/css/app.css" />
 </head>
 
 <body>
@@ -48,27 +48,27 @@
             <div class="row product-row">
                 <div class="col-5 col-md-12">
                     <div class="product-img" id="product-img">
-                    <img src="http://localhost:8080/SHOP/webroot/img/products/11<?= $product->id; ?>.jpg">
+                    <img src="http://localhost:8080/store/webroot/img/products/<?= $product->id; ?>.jpg">
                     </div>
                     <div class="box">
                         <div class="product-img-list">
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/11<?= $product->id; ?>.jpg">
+                                <img src="http://localhost:8080/store/webroot/img/products/<?= $product->id; ?>.jpg">
                             </div>
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/111<?= $product->id; ?>.jpg">
+                                <img src="http://localhost:8080/store/webroot/img/products/1<?= $product->id; ?>.jpg">
                             </div>
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/1111<?= $product->id; ?>.jpg">
+                                <img src="http://localhost:8080/store/webroot/img/products/11<?= $product->id; ?>.jpg">
                             </div>
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/11111<?= $product->id; ?>.jpg">
+                                <img src="http://localhost:8080/store/webroot/img/products/111<?= $product->id; ?>.jpg">
                             </div>
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/11111<?= $product->id; ?>.gif">
+                                <img src="http://localhost:8080/store/webroot/img/products/1111<?= $product->id; ?>.gif">
                             </div>
                             <div class="product-img-item">
-                                <img src="http://localhost:8080/SHOP/webroot/img/products/111111<?= $product->id; ?>.gif">
+                                <img src="http://localhost:8080/store/webroot/img/products/11111<?= $product->id; ?>.gif">
                             </div>
                             
                         </div>
@@ -127,12 +127,12 @@
                         <p>
                             <?= $product->description; ?>
                         </p>
-                        <img src="http://localhost:8080/SHOP/webroot/img/products/sswhite<?= $product->id; ?>.jpg">
+                        <img src="http://localhost:8080/store/webroot/img/products/sswhite<?= $product->id; ?>.jpg">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia, quae fuga in exercitationem aliquam labore ex doloribus repellendus beatae facilis ipsam. Veritatis vero obcaecati iste atque aspernatur ducimus.
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quam praesentium id sit amet magnam ad, dolorum, cumque iste optio itaque expedita eius similique, ab adipisci dicta. Quod, quibusdam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, in corrupti ipsam sint error possimus commodi incidunt suscipit sit voluptatum quibusdam enim eligendi animi deserunt recusandae earum natus voluptas blanditiis?
                         </p>
-                        <img src="http://localhost:8080/SHOP/webroot/img/products/sssswhite<?= $product->id; ?>.jpg">
+                        <img src="http://localhost:8080/store/webroot/img/products/sssswhite<?= $product->id; ?>.jpg">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam quam fugit veniam ipsum recusandae incidunt, ex ratione, magnam labore ad tenetur officia! In, totam. Molestias sapiente deserunt animi porro?
                         </p>
@@ -157,12 +157,12 @@
     <!-- end footer -->
 
     <!-- app js -->
-    <script src="http://localhost:8080/SHOP/webroot/js/home.js"></script>
-    <script src="http://localhost:8080/SHOP/webroot/js/app.js"></script>
-    <script src="http://localhost:8080/SHOP/webroot/js/cart.js"></script>
-    <!-- <script src="http://localhost:8080/SHOP/webroot/js/product_view.js"></script> -->
-    <script src="http://localhost:8080/SHOP/webroot/js/product-details.js"></script>
-    <script src="http://localhost:8080/SHOP/webroot/js/zoomsl.js"></script>
+    <script src="http://localhost:8080/store/webroot/js/home.js"></script>
+    <script src="http://localhost:8080/store/webroot/js/app.js"></script>
+    <script src="http://localhost:8080/store/webroot/js/cart.js"></script>
+    <!-- <script src="http://localhost:8080/store/webroot/js/product_view.js"></script> -->
+    <script src="http://localhost:8080/store/webroot/js/product-details.js"></script>
+    <script src="http://localhost:8080/store/webroot/js/zoomsl.js"></script>
     
     <!-- <script src="./js/app.js"></script>
     <script src="./js/product-detail.js"></script> -->

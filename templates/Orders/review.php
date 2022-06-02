@@ -1,9 +1,4 @@
-<?php
-$title_for_layout = 'Order Review';
-$description = 'Order Review';
-$keywords = 'Order, Review';
-$this->set(compact('title_for_layout', 'description', 'keywords'));
-?>
+
 
 <?php echo $this->Html->script(['jquery.validate.js', 'additional-methods.js', 'order_review.js'], ['block' => 'script']); ?>
 
